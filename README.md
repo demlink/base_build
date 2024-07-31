@@ -1,5 +1,7 @@
 ## FLOW
 
+Enquiry telegram:  @lionelemmark
+
 #install
 	- setup the Node.js
 	Go to the Node.js Downloads page(https://nodejs.org/en/download)
@@ -14,23 +16,23 @@
 
 1. Create pair
 
-	node index.js create -a <tokenaddress>
+	node base.js create -a <tokenaddress>
 
 2. Add Liquididty
 
-	node index.js add -a <tokenaddress> -ta <tokenamount> -we <ethamount>
+	node base.js add -a <tokenaddress> -ta <tokenamount> -we <ethamount>
 
 3. Remove Liquidity
     
-	node index.js remove -a <tokenaddress>
+	node base.js remove -a <tokenaddress>
 
 4. Sell
 
-    node index.js sell -a <tokenaddress>
+    node base.js sell -a <tokenaddress>
 
 5. Buy
 
-	node index.js buy -a <tokenaddress> -ba <buyamount>
+	node base.js buy -a <tokenaddress> -ba <buyamount>
 
 	Enquiry telegram:  @lionelemmark
 
